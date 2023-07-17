@@ -1,0 +1,185 @@
+body{
+  font-family: "Prompt", sans-serif;
+  background-color: #191a35;
+  margin: 0;
+  padding: 20px;
+
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/965/151/non_2x/light-wood-texture-background-free-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+.contenedor{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  
+}
+.operaciones{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    gap: 5px;
+}
+h1{
+    background: rgba(247, 247, 247, 0);
+    transition: all 0.3s ease;
+   border-radius:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(44, 40, 40);
+    font-size:50px;
+    text-align: center;
+    
+}
+.grupo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    display:flex;
+    justify-content:flex-start;
+    gap:10px;
+    height:35px;
+    margin-bottom: 35px;
+}
+.grupo label, button{
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+.grupo button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+     background: rgb(2, 2, 2);
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+      -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+      7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+   border-radius:100px;
+    margin:50px;
+    color:rgb(0, 0, 0);
+    height:45px;
+    background-image: url("https://i.gifer.com/QSYX.gif");
+    cursor: pointer;
+    transition: .5s ease-in-out;  
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.grupo input{
+  display:block;
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+  -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+  7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+transition: all 0.3s ease;
+  border-radius: 7px;
+  font-size:25px;
+  padding: 25px;
+}
+#iva{
+   display:block;
+   margin-left: -330px;
+   width:40px 
+} 
+textarea{
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+  -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+  7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    margin-top:-12px;
+    width:1790px;
+    border-radius: 100px;
+    padding: 5px;
+    font-size:30px;
+    color:#000000;
+    font-weight:bold;
+    margin-left: 13px;
+}
+#resp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  color: #000000;
+  font-weight: 900;
+  background-color: #ef000000;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(242, 242, 242, 0.5);
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  animation: fadeIn 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 10px;
+}
+
+.boton2 {
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: #066aec;
+  color: #851d1d;
+  text-decoration: none;
+  border-radius: 80px;
+  transition: all 0.3s ease-in-out;
+  font-size: 23px;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton2 {
+  display: inline-block;
+  padding: 7px 20px;
+  background-image: url("");
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 80px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  font-size: 23px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 10px auto;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 32px;
+}
+input {
+  width: 90%;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 2px rgba(67, 200, 29, 0.3);
+}
+
+input::placeholder {
+  color: #49c93d;
+  font-weight: bold;
+}
+
+.input {
+  color: #fff;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+

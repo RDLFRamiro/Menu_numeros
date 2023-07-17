@@ -1,0 +1,36 @@
+@font-face{
+  font-family:gtav;
+  src: url();
+}
+body{
+    background-color:#abdacb;
+    color:#f7d8d8;
+    font-family:gtav;
+    font-size:20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReq8N8t926GpHaXr1wXpwBetoVvsDTduZIww&usqp=CAU) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+div{
+  display: line;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:left;
+
+}
+
+.boton {
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: #b933e2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: all 0.9s ease-in-out;
+}
+.boton:hover {
+  background-color: #be22d9;
+  padding: 10px 20px;
+}
+
